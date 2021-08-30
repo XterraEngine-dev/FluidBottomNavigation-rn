@@ -171,7 +171,7 @@ class TabBar extends Component {
       Animated.timing(this.animatedImageValues[index], {
         toValue: 1,
         duration: 800,
-        useNativeDriver: true
+        useNativeDriver: false
       })
     ]).start();
   };
